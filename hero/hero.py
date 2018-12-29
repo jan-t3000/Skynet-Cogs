@@ -12,4 +12,4 @@ class Hero:
         await self.bot.say("VROOM VROOM!")
 
 def setup(bot):
-    bot.add_cog(Engine(bot))
+    bot.add_cog(Hero(bot))
